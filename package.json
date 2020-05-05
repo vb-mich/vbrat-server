@@ -1,0 +1,20 @@
+{
+  "name": "vbrat-server",
+  "license": "WTFPL",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "request-ip": "^2.1.3",
+    "ws": "^6.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "description": "vbrat-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "vb-mich"
+}
